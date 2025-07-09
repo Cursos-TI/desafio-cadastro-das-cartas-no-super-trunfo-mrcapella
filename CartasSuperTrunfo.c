@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
     //declaração das variáveis, em pares para facilitar o entedimento
-    char estado_1, char estado_2;
+    char estado_1, estado_2;
     char cod_carta_1[3],cod_carta_2[3];
     char nome_cid_1[20],nome_cid_2[20];
     int pop_1,pop_2;
