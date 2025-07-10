@@ -58,8 +58,6 @@ int main() {
     densidade_1 = calculaDensidadePib(pop_1,area_cid_1);
     pib_perc_1 = calculaDensidadePib(pib_cid_1,pop_1);
     super_poder_1 = calculaSuperPoder(pop_1,area_cid_1,pib_cid_1,ponto_tur_1,pib_perc_1,densidade_1);
-    //poder = comparaValor(a,b);
-    printf("Super poder: %.2f\n", super_poder_1);
     //fim da leitura da primeira carta
 
     //leitura dos valores da segunda carta
