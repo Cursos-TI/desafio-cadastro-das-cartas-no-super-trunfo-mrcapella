@@ -2,7 +2,7 @@
 Desafio Super Trunfo Paises
 Tema 3 - Nível Novato
 Autor: Marco Roberto Capella Soares
-Versão: V1.3
+Versão: V1.0
 Data: 15/07/2025
 */
 #include <stdio.h>
