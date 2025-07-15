@@ -1,9 +1,8 @@
 /*
-Desafio Super Trunfo Paises
-Tema 3 - Nível Novato
+Desafio Super Trunfo Cidades - Nível Mestre
 Autor: Marco Roberto Capella Soares
-Versão: V1.1
-Data: 15/07/2025
+Versão: V1.3
+Data: 10/07/2025
 */
 #include <stdio.h>
 
@@ -130,5 +129,8 @@ int main() {
     printf("Comparação de cartas (Atributo PIB)\n");
     printf("Carta 1 %s(%s): %.2f\n", nome_cid_1, estado_1,pib_cid_1);
     printf("Carta 2 %s(%s): %.2f\n", nome_cid_2, estado_2,pib_cid_2);
-    printf("A carta vencedora é %c: ", vencedor);
+    if (vencedor == 1)
+        printf("A carta %c (%s) venceu!", vencedor, estado_1);
+    else
+        printf("A carta %c (%s) venceu!", vencedor, estado_2);
 }
