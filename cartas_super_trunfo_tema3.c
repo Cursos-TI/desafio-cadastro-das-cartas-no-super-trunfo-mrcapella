@@ -1,8 +1,9 @@
 /*
-Desafio Super Trunfo Cidades - Nível Mestre
+Desafio Super Trunfo Paises
+Tema 3 - Nível Novato
 Autor: Marco Roberto Capella Soares
 Versão: V1.3
-Data: 10/07/2025
+Data: 15/07/2025
 */
 #include <stdio.h>
 
